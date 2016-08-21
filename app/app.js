@@ -7,6 +7,7 @@ appModule.component('app',{
   $routeConfig:[
     {path:'/',component:'homeComponent',name:'Home'},
     {path:'/about',component:'aboutComponent',name:'About'},
-    {path:'/users',component:'userListComponent',name:'UserList'}
+    {path:'/users',component:'userListComponent',name:'UserList'},
+    {path:'/detail/:id',component:'detailComponent',name:'Detail'}
   ]
 });

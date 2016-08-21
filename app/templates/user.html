@@ -1,4 +1,7 @@
-<div>{{$ctrl.user.login}}</div>
-<div>
-    <img src="{{$ctrl.user.avatar_url}}" width="200" height="200" class="img-circle" />
-</div>
+<a ng-link="['Detail',{id:$ctrl.user.login}]">
+
+    <div>{{$ctrl.user.login}}</div>
+    <div>
+        <img src="{{$ctrl.user.avatar_url}}" width="200" height="200" class="img-circle" />
+    </div>
+</a>
